@@ -13,6 +13,8 @@ public class LoginOhrm {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
 		driver.get("http://amazon.com");
-
+		String title=driver.getTitle();
+		System.out.println(title);
+		
 }
 }
