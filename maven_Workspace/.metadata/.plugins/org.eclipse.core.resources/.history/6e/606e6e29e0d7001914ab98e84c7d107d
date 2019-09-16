@@ -1,0 +1,38 @@
+package cucumber_project;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class StepDefinition {
+
+	WebDriver driver=null;
+	
+	@Given("^open browser$")
+	public void open_browser(){
+     System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+	 driver=new ChromeDriver();
+	}
+
+	@When("^navigate to application$")
+	public void navigate_to_application()  {
+
+	}
+
+	@When("^login credentials are enterd$")
+	public void login_credentials_are_enterd() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^Homepage should be displayed$")
+	public void Homepage_should_be_displayed() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+
+}

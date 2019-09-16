@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "orange-hrm-application;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "open browser",
+            "match": {
+              "location": "StepDefinition.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "navigate to application",
+            "match": {
+              "location": "StepDefinition.navigate_to_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "login credentials are enterd",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Homepage should be displayed",
+            "match": {
+              "location": "StepDefinition.Homepage_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "orange-hrm-application;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "open browser",
+            "match": {
+              "location": "StepDefinition.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "navigate to application",
+            "match": {
+              "location": "StepDefinition.navigate_to_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "login credentials are enterd",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Homepage should be displayed",
+            "match": {
+              "location": "StepDefinition.Homepage_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Orange Hrm Application",
+    "description": "",
+    "id": "orange-hrm-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/CG-DTE/Desktop/maven_Workspace/orangeHrm/Orange/Orange.feature"
+  }
+]

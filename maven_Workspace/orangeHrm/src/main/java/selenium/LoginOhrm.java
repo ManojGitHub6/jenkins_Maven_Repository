@@ -1,20 +1,20 @@
 package selenium;
-
+/*
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-
+*/
 public class LoginOhrm {
 	
 	
-	@Test
+	/*@Test
 	public void tested() {
 		
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
 		driver.get("http://amazon.com");
 		String title=driver.getTitle();
-		System.out.println(title);
+		System.out.println(title);*/
 		
-}
+
 }
